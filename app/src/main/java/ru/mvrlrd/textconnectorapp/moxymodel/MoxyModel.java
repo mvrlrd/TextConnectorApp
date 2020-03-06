@@ -1,14 +1,13 @@
-package ru.mvrlrd.textconnectorapp.nonmoxypack.model;
+package ru.mvrlrd.textconnectorapp.moxymodel;
 
-public class Model {
+public class MoxyModel {
     private StringBuilder unitedText;
 
-    public Model() {
+    public MoxyModel() {
         unitedText = new StringBuilder();
     }
 
     public StringBuilder getUnitedText() {
         return unitedText;
     }
-
 }
