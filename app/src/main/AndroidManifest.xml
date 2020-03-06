@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".nonmoxypack.view.MainActivity">
+                    <!--without MOXY-->
+<!--    <activity android:name=".nonmoxypack.view.MainActivity">-->
+                        <!--MOXY-->
+        <activity android:name=".moxyview.MoxyMainView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
