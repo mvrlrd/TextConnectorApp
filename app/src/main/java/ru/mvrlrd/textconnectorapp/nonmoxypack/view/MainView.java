@@ -1,4 +1,5 @@
 package ru.mvrlrd.textconnectorapp.nonmoxypack.view;
 
-public class MainView {
-}
+public interface MainView {
+        void setText(String s);
+    }
